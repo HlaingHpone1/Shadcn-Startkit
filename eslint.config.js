@@ -59,13 +59,8 @@ export default tseslint.config(
       'import/no-unresolved': 'error',
       'import/named': 'error',
       'import/no-duplicates': 'error',
-      'import/order': [
-        'error',
-        {
-          groups: ['builtin', 'external', 'internal'],
-          'newlines-between': 'always',
-        },
-      ],
+      'import/first': 'error',
+      'import/newline-after-import': 'error',
     },
     settings: {
       'import/resolver': {
